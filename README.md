@@ -1,2 +1,2 @@
-# Orthogonal-Projection-Calculator
+# Orthogonal Projection Calculator
 Given a basis (in the form of a list of vectors) for a subspace in __R__<sup>n</sup>, this program calculates the matrix of the orthogonal projection onto that basis. The program accomplishes this by 1) using the Gram-Schmidt process to find an orthogonal basis for the subspace, 2) finding the matrix of the orthogonal projections onto each orthogonal basis vector (using the formula v⊗v / ||v||<sup>2</sup>), and, finally, 3) summing up the matrices of the orthogonal projections onto each orthogonal basis vector.
